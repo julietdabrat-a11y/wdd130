@@ -83,3 +83,16 @@ h1 {
     margin: 0 0 10px 15px;
     border-radius: 4px;
 }
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+section {
+    background-color: var(--accent2-color);
+}
