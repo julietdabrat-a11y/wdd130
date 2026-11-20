@@ -14,6 +14,7 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -38,6 +39,14 @@ main {
     max-width: 840px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -47,6 +56,8 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 aside img {
@@ -68,9 +79,9 @@ footer {
 
 /* Class Selector */
 .box {
-    margin: Iren;
+    margin: 1rem;
     border: 1px solid rgb(0, 0, 0, .1);
-    padding: Iren;
+    padding: 1rem;
     background-color: #eee;
     color: #000;
 }
