@@ -57,6 +57,11 @@ header nav a {
     background-color: #ffffff;
 }
 
+header nav a:hover {
+    background-color: var(--secondary-color);
+    color: #000000;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -157,6 +162,7 @@ h2 {
     height: 110px;
     object-fit: cover;
     display: block;
+    border-bottom: 3px solid var(--accent1-color);
 }
 
 .adventure-gallery figcaption {
